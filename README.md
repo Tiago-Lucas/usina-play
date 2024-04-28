@@ -1,7 +1,7 @@
 # usina-play
 
 
-#Tecnologias utilizadas
+### 🛠 Tecnologias
 - [Node.js] versão 20.12.2
 -[Angular] versão 17
 -[ionic] versão 8
