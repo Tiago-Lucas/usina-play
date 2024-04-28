@@ -2,8 +2,8 @@
 
 
 ### 🛠 Tecnologias
-- [Node.js] versão 20.12.2
--[Angular] versão 17
+- [Node.js] versão 20.12.2,
+-[Angular] versão 17,
 -[ionic] versão 8
 
 # rodar projeto
