@@ -20,5 +20,5 @@ $ ionic serve
 
 $ instalar capacitor e android studio
 - ng build
-- nx cap syn
+- nx cap sync
 - nx cap run android/ios ou nx cap open android/ios
