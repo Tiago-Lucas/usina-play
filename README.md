@@ -6,7 +6,6 @@
 -[Angular.js] versão 17,
 -[ionic] versão 8
 
-### 🎲 Rodando o ionic 
 # Clone este repositório
 $ git clone <https://github.com/Tiago-Lucas/usina-play>
 
