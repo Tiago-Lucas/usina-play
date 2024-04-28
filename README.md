@@ -18,7 +18,7 @@ $ ionic serve
 
 # Fazer build
 
-- instalar capacitor
+$ instalar capacitor
 - ng build
 - nx cap syn
 - nx cap run android/ios ou nx cap open android/ios
