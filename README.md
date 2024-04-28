@@ -8,7 +8,7 @@
 
 ### 🎲 Rodando o ionic 
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/Tiago-Lucas/usina-play>
 
 # Instale as dependências
 $ npm install
