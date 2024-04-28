@@ -5,6 +5,7 @@
 - [Node.js] versão 20.12.2
 - [Angular.js] versão 17
 - [ionic] versão 8
+- [firebase] versão 10
 
 # Clone este repositório
 $ git clone <https://github.com/Tiago-Lucas/usina-play>
@@ -15,3 +16,9 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ ionic serve 
 
+# Fazer build
+
+$ instalar capacitor
+$ ng build
+$ nx cap syn
+$ nx cap run android/ios ou nx cap open android/ios
