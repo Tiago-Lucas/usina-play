@@ -2,9 +2,9 @@
 
 
 ### 🛠 Tecnologias
-- [Node.js] versão 20.12.2,
--[Angular.js] versão 17,
--[ionic] versão 8
+- [Node.js] versão 20.12.2
+- [Angular.js] versão 17
+- [ionic] versão 8
 
 # Clone este repositório
 $ git clone <https://github.com/Tiago-Lucas/usina-play>
