@@ -1,3 +1,11 @@
 # usina-play
 
-- [Node.js](https://nodejs.org/en/) versão 20.12.2
+
+#Tecnologias utilizadas
+- [Node.js] versão 20.12.2
+-[Angular] versão 17
+-[ionic] versão 8
+
+# rodar projeto
+
+-ionic start
