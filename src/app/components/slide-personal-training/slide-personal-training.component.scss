@@ -1,0 +1,108 @@
+.container-title {
+  .title {
+    padding: 10px 0px 2px 20px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 800;
+
+    ion-icon {
+      margin-left: 5px;
+      color: var(--ion-color-tertiary);
+    }
+  }
+
+  .container-slides {
+    display: flex;
+    overflow-x: scroll;
+
+    .slides {
+      display: flex;
+
+      .slide-one {
+        min-width: 260px;
+        width: 260px;
+        height: 145px;
+        border-radius: 20px;
+        padding: 25px;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('^assets/image/training.png');
+        background-position: center;
+        background-size: cover;
+        margin-left: 20px;
+
+        .info {
+          margin-top: 10px;
+          text-align: start;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          height: 100%;
+
+          h1 {
+            font-size: 16px;
+            margin: 0px;
+            color: white;
+            font-weight: 600;
+
+          }
+        }
+
+        .info-newTraining {
+          text-align: start;
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          align-items: center;
+          padding-top: 10px;
+
+          ion-icon {
+            width: 60px;
+            height: 30px;
+            color: white;
+          }
+
+          h1 {
+            font-size: 16px;
+            margin: 0px;
+            color: white;
+            font-weight: 600;
+
+          }
+        }
+
+      }
+
+      .slide-two {
+        min-width: 260px;
+        width: 260px;
+        height: 145px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('^assets/image/yoga.png');
+        background-position: center center;
+        background-size: cover;
+        margin: 0 20px;
+
+        .info {
+          margin-top: 10px;
+          text-align: start;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          height: 82%;
+          margin-left: 15px;
+
+          h1 {
+            font-size: 16px;
+            margin: 0px;
+            color: white;
+            font-weight: 600;
+
+          }
+        }
+      }
+    }
+  }
+}
+

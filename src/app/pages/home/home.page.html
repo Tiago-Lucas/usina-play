@@ -1,0 +1,54 @@
+<app-menu></app-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <div class="container-header">
+        <div class="container-menu">
+          <ion-buttons>
+            <div>
+              <ion-menu-button></ion-menu-button>
+            </div>
+            <div>
+              <ion-icon class="logo" src="assets/icon/logo.svg"></ion-icon>
+            </div>
+            <div class="notification">
+              <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+          </ion-buttons>
+        </div>
+        <div class="container-user">
+          <div class="photo">
+          </div>
+          <div class="user">
+            <h1>{{ users?.name }}</h1>
+            <h2>{{ users?.nivel }}</h2>
+          </div>
+        </div>
+        <div class="container-info">
+          <div class="container-objective">
+            <div class="icon">
+              <h3>
+                <ion-icon name="body-outline"></ion-icon>
+                Meu corpo
+              </h3>
+            </div>
+            <div class="icon">
+              <h3>
+                <ion-icon name="trophy-outline"></ion-icon>
+                Objetivos e conquistas
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <div class="container-home">
+      <app-slide-personal-training></app-slide-personal-training>
+      <app-slide-training></app-slide-training>
+      <app-slide-content></app-slide-content>
+    </div>
+  </ion-content>
+</div>
+
